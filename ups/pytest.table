@@ -1,3 +1,4 @@
 setupRequired(python)
+setupRequired(python_py)
 envPrepend(PYTHONPATH, ${PRODUCT_DIR}/lib/python)
 envPrepend(PATH, ${PRODUCT_DIR}/bin)
